@@ -155,7 +155,7 @@ $ cat fix1.patch fix2.patch | rbenv install --patch 1.9.3-p429
 
 ### Checksum verification
 
-If you have the `shasum`, `openssl`, or `sha256sum` tool installed, ruby-build will
+If you have the `shasum`, `openssl`, `sha256sum`, or `sha2` tool installed, ruby-build will
 automatically verify the SHA2 checksum of each downloaded package before
 installing it.
 
